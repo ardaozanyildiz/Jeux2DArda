@@ -72,7 +72,7 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
         // Déplacement horizontal répété ici (? doublon avec Update)
-        transform.Translate(Vector2.right * 7f * Time.deltaTime * x);
+        transform.Translate(Vector2.right * 5f * Time.deltaTime * x);
 
         // ---- Saut ----
         if (jump) // si le flag est actif
