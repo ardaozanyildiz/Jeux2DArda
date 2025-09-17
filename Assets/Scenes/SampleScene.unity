@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 444791734}
   m_Layer: 0
   m_Name: PetiteTerre7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1637,7 +1637,7 @@ Camera:
   far clip plane: 100
   field of view: 34
   orthographic: 1
-  orthographic size: 9.959905
+  orthographic size: 10.906045
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1661,13 +1661,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.07, y: 0.1, z: -30.644207}
-  m_LocalScale: {x: 2.0884, y: 3.1325998, z: 2.0884}
+  m_LocalRotation: {x: 0.00052356074, y: 0, z: 0, w: 0.9999999}
+  m_LocalPosition: {x: -1.04, y: 0.96, z: -10}
+  m_LocalScale: {x: 8.5, y: 3.61, z: -0.29}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.06, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bfd2faf527b68b4e861e24f204cbd81, type: 3}
   m_Name: 
@@ -1971,7 +1971,7 @@ Transform:
   m_GameObject: {fileID: 619394800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1, y: 0.15, z: 0}
+  m_LocalPosition: {x: -1.44, y: 0.03999999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2147,7 +2147,7 @@ GameObject:
   - component: {fileID: 921807146}
   m_Layer: 0
   m_Name: PetiteTerre3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2518,9 +2518,9 @@ Transform:
   m_GameObject: {fileID: 992637031}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0025839186, z: -0, w: 0.99999666}
-  m_LocalPosition: {x: -1.0781, y: -0.0235, z: -0.0013}
-  m_LocalScale: {x: 1.8205066, y: 1.536565, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -1.0781, y: 0.9358, z: 0}
+  m_LocalScale: {x: 1.8205066, y: 1.6782585, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0.296, z: 0}
@@ -2540,7 +2540,7 @@ GameObject:
   - component: {fileID: 1000571544}
   m_Layer: 0
   m_Name: PetiteTerre4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 1012177668}
   m_Layer: 0
   m_Name: Boite2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3016,7 +3016,7 @@ CompositeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3123,7 +3123,7 @@ GameObject:
   - component: {fileID: 1076595002}
   m_Layer: 0
   m_Name: Terre6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3438,7 +3438,7 @@ GameObject:
   - component: {fileID: 1143460969}
   m_Layer: 0
   m_Name: PetiteTerre6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3766,7 +3766,7 @@ GameObject:
   - component: {fileID: 1240388642}
   m_Layer: 0
   m_Name: Terre8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4071,7 +4071,7 @@ GameObject:
   - component: {fileID: 1276108656}
   m_Layer: 0
   m_Name: PetiteTerre2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4380,7 +4380,7 @@ GameObject:
   - component: {fileID: 1306386901}
   m_Layer: 0
   m_Name: PetiteTerre5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4843,7 +4843,7 @@ GameObject:
   - component: {fileID: 1567252956}
   m_Layer: 0
   m_Name: Terre5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5233,7 +5233,7 @@ GameObject:
   - component: {fileID: 1592474966}
   m_Layer: 0
   m_Name: Boite1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5468,59 +5468,9 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1592474968}
-    m_ColliderPaths:
-    - - X: 49821428
-        Y: 49642860
-      - X: 40178572
-        Y: 49642860
-      - X: 40178572
-        Y: 40357140
-      - X: 49821428
-        Y: 40357140
-    - - X: 51111112
-        Y: 39814816
-      - X: 28888888
-        Y: 39814816
-      - X: 28888888
-        Y: 30185184
-      - X: 51111112
-        Y: 30185184
-    - - X: 31071430
-        Y: 20185184
-      - X: 51111112
-        Y: 20185184
-      - X: 51111112
-        Y: 29814816
-      - X: 31071430
-        Y: 29814816
-      - X: 31071430
-        Y: 30000000
-      - X: 18928570
-        Y: 30000000
-      - X: 18928570
-        Y: 20000000
-      - X: 31071430
-        Y: 20000000
+  m_ColliderPaths: []
   m_CompositePaths:
-    m_Paths:
-    - - {x: 4.982114, y: 4.035714}
-      - {x: 4.982114, y: 4.964286}
-      - {x: 4.017857, y: 4.964257}
-      - {x: 4.0178866, y: 4.035714}
-    - - {x: 5.111082, y: 3.0185184}
-      - {x: 5.111082, y: 3.9814816}
-      - {x: 2.8888888, y: 3.9814525}
-      - {x: 2.888918, y: 3.0185184}
-    - - {x: 3.1071136, y: 2}
-      - {x: 3.1071725, y: 2.0185184}
-      - {x: 5.111111, y: 2.0185475}
-      - {x: 5.111082, y: 2.9814816}
-      - {x: 3.107143, y: 2.981511}
-      - {x: 3.1071136, y: 3}
-      - {x: 1.8928571, y: 2.999971}
-      - {x: 1.8928864, y: 2}
+    m_Paths: []
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -5583,7 +5533,7 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -5772,7 +5722,7 @@ GameObject:
   - component: {fileID: 1654331488}
   m_Layer: 0
   m_Name: Terre4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6131,7 +6081,7 @@ GameObject:
   - component: {fileID: 1672594874}
   m_Layer: 0
   m_Name: Terre2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6732,7 +6682,7 @@ GameObject:
   - component: {fileID: 1843094738}
   m_Layer: 0
   m_Name: Terre1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8128,7 +8078,7 @@ GameObject:
   - component: {fileID: 1853776992}
   m_Layer: 0
   m_Name: PetiteTerre1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8463,7 +8413,7 @@ GameObject:
   - component: {fileID: 1928197257}
   m_Layer: 0
   m_Name: Terre7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8781,28 +8731,15 @@ GameObject:
   - component: {fileID: 1954444082}
   - component: {fileID: 1954444081}
   - component: {fileID: 1954444080}
-  - component: {fileID: 1954444079}
-  - component: {fileID: 1954444084}
+  - component: {fileID: 1954444085}
+  - component: {fileID: 1954444086}
   m_Layer: 0
-  m_Name: Idle (32x32)_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1954444079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954444078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54ec6ab63380d5346969d3f8363e97f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sfxJump: {fileID: 0}
 --- !u!50 &1954444080
 Rigidbody2D:
   serializedVersion: 4
@@ -8818,7 +8755,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 7
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -8915,7 +8852,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8936,13 +8873,26 @@ Transform:
   m_GameObject: {fileID: 1954444078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.08, y: -4.34, z: 0}
+  m_LocalPosition: {x: 9.57, y: -1.64, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1954444084
+--- !u!114 &1954444085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954444078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ff134a3d0754218ac9f5ec4587db31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!95 &1954444086
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -8952,7 +8902,7 @@ Animator:
   m_GameObject: {fileID: 1954444078}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 66efdae41921942459c53feda4be6c79, type: 2}
+  m_Controller: {fileID: 9100000, guid: 65d1313b56e6c44ccad4d3dc743d7c85, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9191,7 +9141,7 @@ GameObject:
   - component: {fileID: 2144311645}
   m_Layer: 0
   m_Name: Terre3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

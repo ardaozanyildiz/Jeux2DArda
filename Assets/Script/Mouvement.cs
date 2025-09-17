@@ -2,27 +2,27 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    // Clip audio à jouer quand le joueur saute (assigné dans l’Inspector)
+    // Clip audio ï¿½ jouer quand le joueur saute (assignï¿½ dans lï¿½Inspector)
     [SerializeField] AudioClip sfxJump;
     // Composant AudioSource qui jouera les sons
     private AudioSource audioSource;
 
-    // Valeur d’entrée horizontale (?1 = gauche, 0 = immobile, 1 = droite)
+    // Valeur dï¿½entrï¿½e horizontale (?1 = gauche, 0 = immobile, 1 = droite)
     private float x;
-    // Composant pour gérer l’affichage du sprite (retourner à gauche/droite)
+    // Composant pour gï¿½rer lï¿½affichage du sprite (retourner ï¿½ gauche/droite)
     private SpriteRenderer spriteRenderer;
-    // Composant pour gérer les animations du joueur
+    // Composant pour gï¿½rer les animations du joueur
     private Animator animator;
-    // Composant physique pour gérer les forces (notamment le saut)
+    // Composant physique pour gï¿½rer les forces (notamment le saut)
     private Rigidbody2D rb;
 
-    // Indique si le joueur doit sauter à la prochaine frame physique
+    // Indique si le joueur doit sauter ï¿½ la prochaine frame physique
     private bool jump = false;
 
 
     void Awake()
     {
-        // Récupère les composants nécessaires attachés au GameObject
+        // Rï¿½cupï¿½re les composants nï¿½cessaires attachï¿½s au GameObject
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -31,53 +31,53 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
-        // Méthode appelée au lancement, vide ici mais disponible pour init
+        // Mï¿½thode appelï¿½e au lancement, vide ici mais disponible pour init
     }
 
-    // Update est appelé une fois par frame (logique liée aux entrées joueur)
+    // Update est appelï¿½ une fois par frame (logique liï¿½e aux entrï¿½es joueur)
     void Update()
     {
-        // ---- Déplacement horizontal ----
-        x = Input.GetAxis("Horizontal"); // récupère l’input clavier/flèches
+        // ---- Dï¿½placement horizontal ----
+        x = Input.GetAxis("Horizontal"); // rï¿½cupï¿½re lï¿½input clavier/flï¿½ches
         animator.SetFloat("x", Mathf.Abs(x)); // anime la marche selon vitesse
-        transform.Translate(Vector2.right * 7f * Time.deltaTime * x); // déplace le joueur
+        transform.Translate(Vector2.right * 7f * Time.deltaTime * x); // dï¿½place le joueur
 
         // ---- Orientation du sprite ----
-        if (x > 0f) { spriteRenderer.flipX = false; } // regarde à droite
-        if (x < 0f) { spriteRenderer.flipX = true; }  // regarde à gauche
+        if (x > 0f) { spriteRenderer.flipX = false; } // regarde ï¿½ droite
+        if (x < 0f) { spriteRenderer.flipX = true; }  // regarde ï¿½ gauche
 
         // ---- Gestion du saut ----
-        // Ancienne version commentée (force directe au moment de l’appui)
+        // Ancienne version commentï¿½e (force directe au moment de lï¿½appui)
         // if (Input.GetKeyDown(KeyCode.UpArrow)) { rb.AddForce(Vector2.up * 900f); }
 
-        // Nouvelle version : déclenche un "flag" de saut
+        // Nouvelle version : dï¿½clenche un "flag" de saut
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            jump = true; // signal qu’il faut sauter dans FixedUpdate
+            jump = true; // signal quï¿½il faut sauter dans FixedUpdate
             audioSource.PlayOneShot(sfxJump); // joue le son du saut
         }
 
-        // ---- Animation d’attaque ----
+        // ---- Animation dï¿½attaque ----
         if (Input.GetKey(KeyCode.Space))
         {
-            animator.SetBool("Attack", true); // lance l’animation
+            animator.SetBool("Attack", true); // lance lï¿½animation
         }
         else
         {
-            animator.SetBool("Attack", false); // arrête l’animation
+            animator.SetBool("Attack", false); // arrï¿½te lï¿½animation
         }
     }
 
-    // FixedUpdate est appelé à chaque frame physique (idéal pour Rigidbody)
+    // FixedUpdate est appelï¿½ ï¿½ chaque frame physique (idï¿½al pour Rigidbody)
     private void FixedUpdate()
     {
-        // Déplacement horizontal répété ici (? doublon avec Update)
+        // Dï¿½placement horizontal rï¿½pï¿½tï¿½ ici (? doublon avec Update)
         transform.Translate(Vector2.right * 5f * Time.deltaTime * x);
 
         // ---- Saut ----
         if (jump) // si le flag est actif
         {
-            jump = false; // réinitialise pour éviter des sauts infinis
+            jump = false; // rï¿½initialise pour ï¿½viter des sauts infinis
 
             audioSource.PlayOneShot(sfxJump); // rejoue le son du saut (? doublon aussi)
 
